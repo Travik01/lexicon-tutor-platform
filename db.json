@@ -1,0 +1,515 @@
+{
+  "secret": "524a8795c50c719dce7f3ea7aebcb2c5a8c5d103c343e11641f32efb2faa02dc",
+  "teacher": {
+    "name": "Преподаватель",
+    "email": "admin@chistovik.app",
+    "password": "english2026",
+    "bio": "Английский для ЕГЭ, олимпиад и жизни"
+  },
+  "students": [
+    {
+      "id": "student-22dc224be339",
+      "name": "Аня",
+      "level": "B1",
+      "goal": "school",
+      "createdAt": "2026-11-21T06:18:03.417Z"
+    },
+    {
+      "id": "student-2b060fd5c382",
+      "name": "Ученик",
+      "level": "B1",
+      "goal": "school",
+      "createdAt": "2026-11-21T06:37:45.130Z"
+    },
+    {
+      "id": "student-29316cdc7950",
+      "name": "Аудитовый ученик",
+      "level": "unknown",
+      "goal": "general",
+      "createdAt": "2026-11-21T06:47:49.351Z",
+      "email": "audit.student.2026@example.test",
+      "passwordHash": "scrypt:dfe75580fd986eff8a747a999e177a9b:6294697cd493ad9eef1410ae9fe65da534584db2fce6645c5bddf69d57f8bfdb"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1b800332e2e1",
+      "type": "choice",
+      "title": "Present Perfect — выбор формы",
+      "prompt": "Choose the correct form: She ___ English every day.",
+      "passage": "",
+      "audioUrl": "",
+      "options": [
+        {
+          "id": "o-96b622fdc1be",
+          "text": "study",
+          "correct": false,
+          "comment": "С she нужно окончание -s."
+        },
+        {
+          "id": "o-cc5e38f98d1c",
+          "text": "studies",
+          "correct": true,
+          "comment": "Верно: в Present Simple с he/she/it добавляем -s."
+        },
+        {
+          "id": "o-823fa515d451",
+          "text": "is study",
+          "correct": false,
+          "comment": "Это смесь двух времён, так не говорят."
+        }
+      ],
+      "answers": [],
+      "explanation": "Present Simple: после she/he/it глагол получает -s — she studies.",
+      "points": 1,
+      "tags": [],
+      "createdAt": "2026-11-21T06:07:39.941Z"
+    },
+    {
+      "id": "task-89178e777cef",
+      "type": "gap",
+      "title": "Пропуск: since / for",
+      "prompt": "We have lived here ___ five years.",
+      "passage": "",
+      "audioUrl": "",
+      "options": [],
+      "answers": [
+        "for"
+      ],
+      "explanation": "For — для промежутка времени (five years), since — для точки отсчёта (2020).",
+      "points": 2,
+      "tags": [],
+      "createdAt": "2026-11-21T06:07:39.941Z"
+    },
+    {
+      "id": "task-56e644417ab5",
+      "type": "cards",
+      "title": "Лексика: achievements",
+      "prompt": "achievement",
+      "passage": "",
+      "audioUrl": "",
+      "options": [],
+      "answers": [
+        "достижение"
+      ],
+      "explanation": "Winning the competition was a great achievement.",
+      "points": 1,
+      "tags": [],
+      "createdAt": "2026-11-21T06:07:39.941Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test-d0b056c2164c",
+      "title": "Present Perfect — тренировка",
+      "description": "Три задания подряд: выбор формы, пропуск и карточка. После каждого ответа — объяснение.",
+      "topic": "Грамматика",
+      "level": "B1",
+      "code": "TASK-101",
+      "deadline": "",
+      "status": "active",
+      "taskIds": [
+        "task-1b800332e2e1",
+        "task-89178e777cef",
+        "task-56e644417ab5"
+      ],
+      "updatedAt": "2026-11-21T06:53:20.306Z",
+      "createdAt": "2026-11-21T06:53:20.306Z"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set-4c173e125a2f",
+      "title": "Unit 5 — Travelling",
+      "level": "B1",
+      "description": "Слова из урока 5: поездки, транспорт, аэропорт.",
+      "words": [
+        {
+          "id": "w-5695ebfedb3b",
+          "word": "departure",
+          "translation": "отправление",
+          "definition": "the act of leaving a place",
+          "example": "The departure time is 8:30.",
+          "category": "Places",
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w-edd6e9afc4c0",
+          "word": "luggage",
+          "translation": "багаж",
+          "definition": "bags and suitcases for travelling",
+          "example": "Don't forget your luggage.",
+          "category": "Actions",
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w-a5d49820b10b",
+          "word": "to board",
+          "translation": "садиться (в транспорт)",
+          "definition": "to get on a plane, train or ship",
+          "example": "We boarded the train at platform 5.",
+          "category": "Actions",
+          "partOfSpeech": "verb"
+        },
+        {
+          "id": "w-33296c9013d2",
+          "word": "delay",
+          "translation": "задержка",
+          "definition": "when something happens later than planned",
+          "example": "There was a two-hour delay.",
+          "category": "Rules",
+          "partOfSpeech": "noun"
+        },
+        {
+          "id": "w-0c17d47c9d1f",
+          "word": "to set off",
+          "translation": "отправиться в путь",
+          "definition": "to start a journey",
+          "example": "We set off early in the morning.",
+          "category": "Actions",
+          "partOfSpeech": "phrasal verb"
+        },
+        {
+          "id": "w-acbeedb0e559",
+          "word": "comfortable",
+          "translation": "удобный",
+          "definition": "providing physical ease",
+          "example": "The seats were very comfortable.",
+          "category": "People / reactions",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "createdAt": "2026-11-21T06:07:39.942Z",
+      "updatedAt": "2026-11-21T06:07:39.942Z"
+    }
+  ],
+  "submissions": [],
+  "lessonComments": {},
+  "program": [
+    {
+      "id": "set-1",
+      "month": "Январь",
+      "title": "Set 1: Grammar Foundations",
+      "modules": [
+        {
+          "id": "m-1-1",
+          "title": "Grammar Foundations",
+          "lessons": [
+            "present-perfect",
+            "articles",
+            "used-to"
+          ],
+          "vocabSetId": "set-daily-life"
+        },
+        {
+          "id": "m-1-2",
+          "title": "Vocabulary & Reading",
+          "lessons": [
+            "technology-vocab",
+            "reading-green-city",
+            "irregular-verbs"
+          ],
+          "vocabSetId": "set-travel"
+        }
+      ]
+    },
+    {
+      "id": "set-2",
+      "month": "Февраль",
+      "title": "Set 2: Vocabulary & Reading",
+      "modules": [
+        {
+          "id": "m-2-1",
+          "title": "Exam Preparation",
+          "lessons": [
+            "ege-grammar",
+            "word-formation",
+            "email-writing"
+          ],
+          "vocabSetId": "set-travel"
+        },
+        {
+          "id": "m-2-2",
+          "title": "Speaking & Listening",
+          "lessons": [
+            "speaking-interview",
+            "listening-dialogue",
+            "reported-speech"
+          ],
+          "vocabSetId": "set-opinions"
+        }
+      ]
+    },
+    {
+      "id": "set-3",
+      "month": "Март",
+      "title": "Set 3: Exam Preparation",
+      "modules": [
+        {
+          "id": "m-3-1",
+          "title": "Advanced Grammar",
+          "lessons": [
+            "conditionals",
+            "future-forms",
+            "passive-voice"
+          ],
+          "vocabSetId": "set-opinions"
+        },
+        {
+          "id": "m-3-2",
+          "title": "Olympiad Challenge",
+          "lessons": [
+            "olympiad-idioms",
+            "olympiad-character",
+            "reading-digital-habits"
+          ],
+          "vocabSetId": "set-daily-life"
+        }
+      ]
+    },
+    {
+      "id": "set-4",
+      "month": "Апрель",
+      "title": "Set 4: Speaking & Listening",
+      "modules": [
+        {
+          "id": "m-4-1",
+          "title": "Collocations & Phrasal Verbs",
+          "lessons": [
+            "collocations-make-do",
+            "phrasal-get",
+            "articles-deep"
+          ],
+          "vocabSetId": "set-daily-life"
+        },
+        {
+          "id": "m-4-2",
+          "title": "Real-World English",
+          "lessons": [
+            "travel-vocab",
+            "reading-neighbour",
+            "modals-obligation"
+          ],
+          "vocabSetId": "set-travel"
+        }
+      ]
+    },
+    {
+      "id": "set-5",
+      "month": "Май",
+      "title": "Set 5: Advanced Grammar",
+      "modules": [
+        {
+          "id": "m-5-1",
+          "title": "Reading Comprehension",
+          "lessons": [
+            "reading-ai-school",
+            "reading-green-city",
+            "reading-digital-habits"
+          ],
+          "vocabSetId": "set-travel"
+        },
+        {
+          "id": "m-5-2",
+          "title": "ЕГЭ: письменная часть",
+          "lessons": [
+            "email-writing",
+            "word-formation",
+            "ege-grammar"
+          ],
+          "vocabSetId": "set-opinions"
+        }
+      ]
+    },
+    {
+      "id": "set-6",
+      "month": "Июнь",
+      "title": "Set 6: Olympiad Challenge",
+      "modules": [
+        {
+          "id": "m-6-1",
+          "title": "ЕГЭ: устная часть",
+          "lessons": [
+            "speaking-interview",
+            "listening-dialogue",
+            "present-perfect"
+          ],
+          "vocabSetId": "set-opinions"
+        },
+        {
+          "id": "m-6-2",
+          "title": "Final Review",
+          "lessons": [
+            "conditionals",
+            "reported-speech",
+            "future-forms"
+          ],
+          "vocabSetId": "set-daily-life"
+        }
+      ]
+    },
+    {
+      "id": "set-7",
+      "month": "Июль",
+      "title": "Set 7: Collocations & Phrasal Verbs",
+      "modules": [
+        {
+          "id": "m-7-1",
+          "title": "Grammar Foundations",
+          "lessons": [
+            "present-perfect",
+            "articles",
+            "used-to"
+          ],
+          "vocabSetId": "set-daily-life"
+        },
+        {
+          "id": "m-7-2",
+          "title": "Vocabulary & Reading",
+          "lessons": [
+            "technology-vocab",
+            "reading-green-city",
+            "irregular-verbs"
+          ],
+          "vocabSetId": "set-travel"
+        }
+      ]
+    },
+    {
+      "id": "set-8",
+      "month": "Август",
+      "title": "Set 8: Real-World English",
+      "modules": [
+        {
+          "id": "m-8-1",
+          "title": "Exam Preparation",
+          "lessons": [
+            "ege-grammar",
+            "word-formation",
+            "email-writing"
+          ],
+          "vocabSetId": "set-travel"
+        },
+        {
+          "id": "m-8-2",
+          "title": "Speaking & Listening",
+          "lessons": [
+            "speaking-interview",
+            "listening-dialogue",
+            "reported-speech"
+          ],
+          "vocabSetId": "set-opinions"
+        }
+      ]
+    },
+    {
+      "id": "set-9",
+      "month": "Сентябрь",
+      "title": "Set 9: Reading Comprehension",
+      "modules": [
+        {
+          "id": "m-9-1",
+          "title": "Advanced Grammar",
+          "lessons": [
+            "conditionals",
+            "future-forms",
+            "passive-voice"
+          ],
+          "vocabSetId": "set-opinions"
+        },
+        {
+          "id": "m-9-2",
+          "title": "Olympiad Challenge",
+          "lessons": [
+            "olympiad-idioms",
+            "olympiad-character",
+            "reading-digital-habits"
+          ],
+          "vocabSetId": "set-daily-life"
+        }
+      ]
+    },
+    {
+      "id": "set-10",
+      "month": "Октябрь",
+      "title": "Set 10: ЕГЭ: письменная часть",
+      "modules": [
+        {
+          "id": "m-10-1",
+          "title": "Collocations & Phrasal Verbs",
+          "lessons": [
+            "collocations-make-do",
+            "phrasal-get",
+            "articles-deep"
+          ],
+          "vocabSetId": "set-daily-life"
+        },
+        {
+          "id": "m-10-2",
+          "title": "Real-World English",
+          "lessons": [
+            "travel-vocab",
+            "reading-neighbour",
+            "modals-obligation"
+          ],
+          "vocabSetId": "set-travel"
+        }
+      ]
+    },
+    {
+      "id": "set-11",
+      "month": "Ноябрь",
+      "title": "Set 11: ЕГЭ: устная часть",
+      "modules": [
+        {
+          "id": "m-11-1",
+          "title": "ЕГЭ: устная часть",
+          "lessons": [
+            "reading-ai-school",
+            "reading-green-city",
+            "reading-digital-habits"
+          ],
+          "vocabSetId": "set-travel"
+        },
+        {
+          "id": "m-11-2",
+          "title": "ЕГЭ: письменная часть",
+          "lessons": [
+            "email-writing",
+            "word-formation",
+            "ege-grammar"
+          ],
+          "vocabSetId": "set-opinions"
+        }
+      ]
+    },
+    {
+      "id": "set-12",
+      "month": "Декабрь",
+      "title": "Set 12: Final Review",
+      "modules": [
+        {
+          "id": "m-12-1",
+          "title": "ЕГЭ: устная часть",
+          "lessons": [
+            "speaking-interview",
+            "listening-dialogue",
+            "present-perfect"
+          ],
+          "vocabSetId": "set-opinions"
+        },
+        {
+          "id": "m-12-2",
+          "title": "Final Review",
+          "lessons": [
+            "conditionals",
+            "reported-speech",
+            "future-forms"
+          ],
+          "vocabSetId": "set-daily-life"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-11-21T06:07:39.940Z"
+}
